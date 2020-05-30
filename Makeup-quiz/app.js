@@ -16,7 +16,7 @@ function trueOrfalse(){
 
 const makeup = products.makeup;
 
-
+//nikola's guidance <3
 /* const products = {
     makeup: {
         jamesPalette: {

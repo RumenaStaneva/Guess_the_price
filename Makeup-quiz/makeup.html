@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="pictures/favcon-icon.png" />
     
-    <script src="vendor.js" defer></script>
     <script src="app.js" defer></script>
     
     <title>Makeup</title>
@@ -22,15 +21,16 @@
 
     <div class="content">
         <ul>
-        <li>The James Charles Eyeshadow Palette</li>
+        <li id="namePalette">The James Charles Eyeshadow Palette</li>
         <li>
-        <img src="pictures/jchh.png" class="picture">
+        <img src="pictures/jchh.png" id="picture">
         </li>
-        <input id="input" type="number">
+        <input id="input" type="number" value="$">
         <li>
         <button id="button-submit" type="button">Submit</button>
         </li>
         </ul>
     </div>
+    
 </body>
 </html>

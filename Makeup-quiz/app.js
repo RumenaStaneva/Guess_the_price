@@ -8,6 +8,13 @@ function getUserInput(){
     return parseInt(userInput.value)
 }
 
+document.getElementById("input").addEventListener("keyup", function(pushed) {
+  if (pushed.keyCode === 13) {
+    pushed.preventDefault();
+   document.getElementById("button-submit").click();
+  }
+});
+
 function trueOrfalse(){
     let enteredPrice = getUserInput()
     

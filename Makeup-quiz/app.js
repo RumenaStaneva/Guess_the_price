@@ -1,6 +1,6 @@
 const userInput = document.getElementById('input');
 const btn = document.getElementById('button-submit');
-
+const closebtn = document.getElementsByClassName("close");
 
 let rightAnswer = false;
 
@@ -19,7 +19,7 @@ function trueOrfalse(){
     let enteredPrice = getUserInput()
     
     if (products.makeup.jamesPalette.price == enteredPrice) {
-        alert("Correct! Bravo");
+        document.getElementById('correct').style.display='block';
         rightAnswer = true;
         nextPic()
     } else {
@@ -30,9 +30,15 @@ function trueOrfalse(){
 function nextPic(){
     
     if(rightAnswer == true){
-    document.getElementById("picture").src = 'norvina.png';
+    document.getElementById("picture").src = "pictures/norvina.png";
     document.getElementById("namePalette").innerHTML = 'Norvina ABH palette';
 } 
+}
+
+function pop(){
+    
+    document.getElementById('correct').style.display='block';
+    
 }
 
 //const makeup = products.makeup;
@@ -52,6 +58,15 @@ const products = {
     shoes: {}
 } 
 
-btn.addEventListener('click', trueOrfalse);
 
+//ask Nikola
+for (i = 0; i < closebtn.length; i++) {
+  closebtn[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
+
+
+btn.addEventListener('click', trueOrfalse);
+//closebtn.addEventListener("click",close)
 

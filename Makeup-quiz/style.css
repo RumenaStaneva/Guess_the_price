@@ -57,15 +57,32 @@ input::-webkit-inner-spin-button {
 }
 
 #correct{
-  color: greenyellow;
   background-color: ivory;
   width: 40%;
   height: 40%;
   margin-top: 19%;
   margin-left: 30%;
-
+  opacity: 0.97;
 }
-.close:hover {background: #bbb;}
+
+#wrong{
+  background-color: lightcoral;
+  width: 40%;
+  height: 40%;
+  margin-top: 19%;
+  margin-left: 30%;
+  opacity: 0.97;
+}
+#correct h1{
+font-size: 90px;
+margin-top: 14%;
+}
+
+#wrong h1{
+  font-size: 90px;
+  margin-top: 10%;
+  }
+.close:hover { background-color: khaki;}
 .close {
   cursor: pointer;
   position: absolute;
@@ -73,8 +90,9 @@ input::-webkit-inner-spin-button {
   padding: 12px 16px;
   transform: translate(0%, -50%);
   font-size: 40px;
+  margin-left: 40%;
 }
 
-#correctAnswer{
+.message{
   padding: 12px 16px;
 }

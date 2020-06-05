@@ -41,6 +41,9 @@
    font-size: 2em;
    
   }
+  .btn:hover{
+  background-color: ivory;
+  }
 
   .image{
   padding-top: 3em;

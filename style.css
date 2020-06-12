@@ -33,12 +33,13 @@
 
   .btn{
     background-color: #FFD2FE;
-    width: 30.5%;
+    width: 25%;
     color: cornflowerblue;
     size: 3em;
     position: absolute;
     margin-left: 20px;
    font-size: 2em;
+   text-align: center;
    
   }
   .btn:hover{
@@ -49,8 +50,8 @@
   padding-top: 3em;
   top: 20px;
   padding-left: 20px;
-  height: 34%;
-  width: 34%;
+  height: 30%;
+  width: 30%;
   }
 
   .section{

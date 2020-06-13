@@ -154,7 +154,7 @@ const products = {
 
 let newId;
 let usedIds = [];
-const numberOfProducts = 3;
+const numberOfProducts = 23;
 function random() {
     newId = Math.floor(Math.random() * numberOfProducts)
     for (let i = 0; i < usedIds.length; i++) {
@@ -203,10 +203,10 @@ render()
 function trueOrfalse(){
     let enteredPrice = getUserInput()
     if(usedIds.length == numberOfProducts){
-        document.getElementById('win').style.display='block';
+        document.getElementById('winning').style.display='block';
         document.getElementById('restart').addEventListener('click', function() {
             usedIds = [];
-            document.getElementById('win').style.display='none';
+            document.getElementById('winning').style.display='none';
             random();
             render();
         })

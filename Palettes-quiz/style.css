@@ -82,8 +82,8 @@ input::-webkit-inner-spin-button {
   opacity: 0.97;
 }
 
-#win{
-  background-color: ivory;
+#winning{
+  background-color: lawngreen;
   width: 40%;
   height: 40%;
   margin-top: 19%;
@@ -91,6 +91,9 @@ input::-webkit-inner-spin-button {
   opacity: 0.97;
 }
 
+#winning > a {
+  text-decoration: none;
+}
 #correct h1{
 font-size: 90px;
 margin-top: 14%;
@@ -100,7 +103,10 @@ margin-top: 14%;
   font-size: 90px;
   margin-top: 10%;
 }
-
+#winning > h1{
+font-size: 20px;
+margin-top: 10%;
+}
 .close:hover { 
   background-color: khaki;
 }
@@ -139,7 +145,7 @@ margin-top: 14%;
   
   .main-nav{
     display: inline-block;
-    
+  
     font-size: 20px;
     text-align: right;
     width: calc(100% - 200px);

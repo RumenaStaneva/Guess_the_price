@@ -10,7 +10,7 @@ const products = {
     makeup: [
         {
             name: "James Charles Eyeshadow Palette",
-            price: 49,
+            price: 39,
             image:"pictures/jchh.png",
             id: 0
         },
@@ -26,32 +26,26 @@ const products = {
             image: "pictures/huda.png", 
             id: 2
         }, 
-        {
-            name: "Jeffree Star - Blood Sugar palette",
-            price: 52,
-            image: "pictures/bloodSugar.png", 
-            id: 3
-        },
-        {
-            name: "Jeffree Star - Jawbreaker Palette",
-            price: 58,
-            image: "pictures/jawBreaker.png", 
-            id: 4
-        }, 
-        {
-            name: "Fenty Beauty - Moroccan Spice Eyeshadow Palette",
-            price: 59,
-            image: "pictures/fentyBeauty.png", 
-            id: 5
-        }, 
-        
+
     ],
     shoes: {}
 } 
 
 let newId;
+let usedIds = [];
+const numberOfProducts = 3;
 function random() {
-    newId = Math.floor(Math.random() * 6)
+    newId = Math.floor(Math.random() * numberOfProducts)
+    for (let i = 0; i < usedIds.length; i++) {
+        let currentId = usedIds[i];
+        if(currentId == newId){
+            random();
+            return;
+        }
+        
+    }
+    usedIds.push(newId)
+    
 }
 random()
 let userInput;
@@ -65,7 +59,7 @@ function render() {
     <li>
     <img src=${whichProduct.image} id="picture">
     </li>
-    <input id="input" type="number" value="$">
+    <input id="input" type="number">
     <li>
     <button id="button-submit" type="button">Submit</button>
 </li>`
@@ -74,6 +68,7 @@ function render() {
  userInput = document.getElementById('input');
  btn = document.getElementById('button-submit');
  btn.addEventListener('click', trueOrfalse);
+ userInput.addEventListener("keydown", enter);
 }
 render()
 
@@ -86,7 +81,16 @@ render()
 //and here 
 function trueOrfalse(){
     let enteredPrice = getUserInput()
-    if (whichProduct.price == enteredPrice) {
+    if(usedIds.length == numberOfProducts){
+        document.getElementById('win').style.display='block';
+        document.getElementById('restart').addEventListener('click', function() {
+            usedIds = [];
+            document.getElementById('win').style.display='none';
+            random();
+            render();
+        })
+        return;
+    }else if (whichProduct.price == enteredPrice) {
         document.getElementById('correct').style.display='block';
         random();
         render();
@@ -96,7 +100,8 @@ function trueOrfalse(){
         
     }
     
-    document.getElementById('input').value = '';
+    //document.getElementById('input').value = '';
+    
 }
 
 
@@ -108,13 +113,12 @@ for (let i = 0; i < closebtn.length; i++) {
       this.parentElement.style.display = 'none';
     });
   }
-  //when pushed enter
-  document.getElementById("input").addEventListener("keyup", function(pushed) {
-      if (pushed.keyCode === 13) {
-        pushed.preventDefault();
-       document.getElementById("button-submit").click();
-      }
-    });
+  
+//when pushed enter
 
-//closebtn.addEventListener("click",close)
-
+function enter(pushed) {
+    if (pushed.keyCode === 13) {
+    pushed.preventDefault();
+    btn.click();
+    }
+  }

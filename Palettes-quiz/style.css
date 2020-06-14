@@ -3,7 +3,7 @@
   }
 
 body{
-    background-color: rgb(255, 204, 197);
+    background-color: #FFE5D9;
     text-align: center;
     font-family: 'Lobster', cursive;
     margin: 0;
@@ -26,7 +26,7 @@ body{
 
 .content{
 margin-top: 40px;
-background-color: rgb(255, 183, 173);
+background-color: #FFCAD4;
 text-align: center;
 padding: 16px;
 display: inline-block;
@@ -64,6 +64,32 @@ input::-webkit-inner-spin-button {
   border-radius: 5px;
 }
 
+#button-submit:hover{
+  color: #FFE5D9;
+}
+
+#restart{
+  margin-right: 20px;
+  width: auto;
+  font-size: 25px;
+  background-color:khaki ;
+  border-radius: 5px;
+  border: 0;
+  padding: 17px;
+}
+
+#wining a:hover, button:hover{
+  color: lightcoral;
+}
+#winning a{
+  font-size: 25px;
+  background-color: lightcoral;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(32, 29, 30);
+  padding: 20px;
+}
+
 #correct{
   background-color: ivory;
   width: 40%;
@@ -83,7 +109,7 @@ input::-webkit-inner-spin-button {
 }
 
 #winning{
-  background-color: lawngreen;
+  background-color: rgb(233, 250, 76);
   width: 40%;
   height: 40%;
   margin-top: 19%;
@@ -91,9 +117,6 @@ input::-webkit-inner-spin-button {
   opacity: 0.97;
 }
 
-#winning > a {
-  text-decoration: none;
-}
 #correct h1{
 font-size: 90px;
 margin-top: 14%;
@@ -104,11 +127,11 @@ margin-top: 14%;
   margin-top: 10%;
 }
 #winning > h1{
-font-size: 20px;
+font-size: 90px;
 margin-top: 10%;
 }
 .close:hover { 
-  background-color: khaki;
+  background-color: #F4ACB7;
 }
 
 .close {
@@ -130,7 +153,7 @@ margin-top: 10%;
     bottom: 0;
     right: 0;
   width: 100%;
-  background-color: lightcoral;
+  background-color: #9D8189;
   padding: 8px 16px;
   vertical-align: middle;
   
@@ -172,14 +195,35 @@ margin-top: 10%;
     text-decoration: none;
     font-weight: bold;
     padding: 3px 0;
+    display: inline-block;
+  }
+
+  .main-nav__item a:hover::after{
+    width: 100%;
+    transition: width .3s;
     
   }
 
-  .main-nav__item a:hover{
-    color: rgb(255, 183, 173);
-    border-bottom: 5px solid white;
-    
-    
+  .main-nav__item a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    color: #F4ACB7;
+    border-bottom: 5px solid #FFE5D9;
+  }
+
+  .main-nav__item--cta{
+      display: inline-block;
+      margin: 0 16px;
+  }
+
+  .main-nav__item--cta > a{
+    color: rgb(32, 29, 30);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
+    display: inline-block;
   }
 
   .main-nav__item--cta a{

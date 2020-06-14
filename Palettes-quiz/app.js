@@ -35,7 +35,7 @@ const products = {
         {
             name: "Jeffree Star - Jawbreaker Palette",
             price: 58,
-            image: "pictures/jawBreaker.png", 
+            image: "pictures/JawBreaker.png", 
             id: 4
         }, 
         {
@@ -77,7 +77,7 @@ const products = {
         {
             name: "Anastasia Beverly Hills - Riviera Eye Shadow Palette",
             price: 46,
-            image: "pictures/jacklinHillMorphe.png", 
+            image: "pictures/ABHRiviera.png", 
             id: 11
         },
         {

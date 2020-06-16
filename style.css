@@ -12,7 +12,9 @@
     background-image: url(pictures/money.jpg);
     background-repeat: round;
     font-family: 'Josefin Sans', sans-serif;
-    height: 300px;
+    
+    
+      
   }
 
   nav{
@@ -145,14 +147,12 @@
     .btn{
       position: unset;
     }
-    #try{
-      display: none;
-    }
+  
     .nav-links{
       position: absolute;
       right: 0;
       height: 92vh;
-      top: 8vh;
+      top: 30vh;
       background-color: #9B5271;
       display: flex;
       flex-direction: column;

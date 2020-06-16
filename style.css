@@ -4,7 +4,9 @@
   body{
     background-color: #ffe8ef;
     font-family: 'Kaushan Script', cursive;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   #try {
     background-image: url(pictures/money.jpg);
@@ -58,69 +60,65 @@
     position: relative;
   }
 
-  .main-header{
-  width: 100%;
-  background-color: rgb(185, 108, 248);
-  padding: 8px 16px;
-  vertical-align: middle;
-  position: absolute;
-  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #9B5271;
   }
-  .main-header > div{
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 22px;
+
+  .logo h4{
     color: #d9caec;
+    font-size: 30px;
+    padding-bottom: 20px;
   }
 
+    .nav-links{
+      display: flex;
+      width: 40%;
+      justify-content: space-around;
+    }
+    .nav-links a{
+      color: #d9caec;
+      text-decoration: none;
+      font-size: 22px;
+    }
+    .nav-links li{
+      list-style: none;
+    }
+
+    .main-nav__item a:hover::after{
+      width: 100%;
+      transition: width .3s;
+      
+    }
   
-  .main-nav{
-    display: inline-block;
-    font-size: 20px;
-    text-align: right;
-    width: calc(100% - 200px);
-    vertical-align: middle;
-  }
+    .main-nav__item a::after{
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      color: #F4ACB7;
+      border-bottom: 5px solid #FFE5D9;
+    }
 
-  .main-nav__items{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+    .main-nav__item--cta{
+      margin: 0 16px;
+  }
+    .main-nav__item--cta a{
+      text-decoration: none;
+      
+      color: white;
+      background-color: #AB6460;
+      padding: 8px 16px;
+      border-radius: 8px;
+    }
   
-  
-}
+    .main-nav__item--cta a:hover{
+      color: #AB6460;
+      background-color: white;
+      border: none;
+    }
 
-  .main-nav__item{
-    display: inline-block;
-    margin: 0 16px;
-   
     
-  }
-
-  .main-nav__item > a{
-    color: #d9caec;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 3px 0;
-    
-  }
-
-  .main-nav__item a:hover{
-    color: rgb(238, 182, 110);
-    border-bottom: 5px solid white;
-    
-    
-  }
-
-  .main-nav__item--cta a{
-    color: white;
-    background-color: teal;
-    padding: 8px 16px;
-    border-radius: 8px;
-  }
-
-  .main-nav__item--cta a:hover{
-    color: teal;
-    background-color: white;
-    border: none;
-  }

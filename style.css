@@ -33,7 +33,7 @@
 
     .nav-links{
       display: flex;
-      width: 50%;
+      width: 60%;
       justify-content: space-around;
     }
     .nav-links a{
@@ -128,21 +128,27 @@
     }
   
    
-
-
-@media screen and (max-width:1024px){
-    .nav-links{
-    width: 70%;
-  }
+    @media screen and (max-width:1296px){
+      .nav-links{
+      width: 70%;
     }
-
-@media screen and (max-width:768px){
-
-    body{
+      }
+    
+      @media screen and (max-width:1060px){
+        .nav-links{
+        width: 80%;
+      }
+        }
+    
+@media screen and (max-width:1024px){
+     body{
       overflow-x: hidden;
     }
     #choose{
       position: unset;
+    }
+    #try{
+      display: none;
     }
     .btn{
       position: unset;
@@ -152,7 +158,7 @@
       position: absolute;
       right: 0;
       height: 92vh;
-      top: 30vh;
+      top: 8vh;
       background-color: #9B5271;
       display: flex;
       flex-direction: column;
@@ -167,6 +173,15 @@
       display: block;
       cursor: pointer;
     }
+    }
+
+@media screen and (max-width:1024px){
+  .nav-links{
+
+    top: 8vh;
+   
+  }
+   
     }
 
     .nav-active{

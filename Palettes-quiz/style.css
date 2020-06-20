@@ -23,15 +23,16 @@ body{
     opacity: 1;
   }
 
+  .for-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 
 .content{
 margin-top: 40px;
 background-color: #FFCAD4;
-text-align: center;
-padding: 16px;
-display: inline-block;
 width: 50%;
-vertical-align: middle;
 border: 5px solid rgb(255, 161, 148);
 }
 
@@ -239,7 +240,39 @@ margin-top: 10%;
     border: none;
   }
 
-    @media screen and (max-width:1024px){
+  @media screen and (max-width:1400px){
+  
+    .content{
+      width: 70%;
       
+      }
+  }
+  @media screen and (max-width:1080px){
+  
+    .content{
+      width: 80%;
+      
+      
+      }
+  }
+
+    @media screen and (max-width:876px){
+
+      body{
+        display: unset;
+      }
+      .main-header{
+        display: none;
+      }
+
+      
+      .content{
+      width: 90%;
+      border: 2px solid rgb(255, 161, 148);
+      justify-content: center
+      }
+      
+      
+
       
     }

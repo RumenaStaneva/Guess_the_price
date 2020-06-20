@@ -27,6 +27,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  
   }
 
 .content{
@@ -91,14 +92,7 @@ input::-webkit-inner-spin-button {
   padding: 20px;
 }
 
-#correct{
-  background-color: ivory;
-  width: 40%;
-  height: 40%;
-  margin-top: 19%;
-  margin-left: 30%;
-  opacity: 0.97;
-}
+
 
 #wrong{
   background-color: lightcoral;
@@ -151,8 +145,8 @@ margin-top: 10%;
 
 .main-header{
   position: absolute;
-    bottom: 0;
-    right: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
   background-color: #9D8189;
   padding: 8px 16px;
@@ -240,39 +234,124 @@ margin-top: 10%;
     border: none;
   }
 
-  @media screen and (max-width:1400px){
-  
-    .content{
-      width: 70%;
-      
-      }
-  }
-  @media screen and (max-width:1080px){
-  
-    .content{
-      width: 80%;
-      
-      
-      }
-  }
-
-    @media screen and (max-width:876px){
-
-      body{
-        display: unset;
-      }
+ 
+    @media screen and (max-width: 600px){
       .main-header{
         display: none;
       }
+      .for-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
 
-      
+      #picture{
+        width: 100%;
+        height: 100%;
+      }
+      #input{
+        width: 100%;
+      }
+      #button-submit{
+        width: 90%;
+      }
       .content{
       width: 90%;
       border: 2px solid rgb(255, 161, 148);
       justify-content: center
       }
       
+      #correct{
+        width: 80%;
+        height: 40%;
+        margin: 70% 10%;
+        background-color: ivory;
+        opacity: 0.97;
+        
+      }
       
+      #correct h1{
+        font-size: 70px;
+        padding-top: 20%;
+        }
 
       
     }
+
+    @media screen and (min-width: 600px){
+  
+      .main-header{
+        display: none;
+      }
+      .content{
+        width: 80%;
+        }
+
+        
+  
+        #correct{
+          width: 80%;
+          height: 40%;
+          margin: 45% 10%;
+          background-color: ivory;
+          opacity: 0.97;
+        }
+
+        #correct h1{
+          font-size: 90px;
+          padding-top: 5%;
+          }
+    }
+  
+
+    @media screen and (min-width: 768px){
+      .main-header{
+        display: block;
+      }
+
+      #correct{ 
+        width: 70%;
+        height: 40%;
+        margin: 35% 15%;
+      }
+      
+      #correct h1{
+        font-size: 80px;
+        padding-top: 10%;
+        }
+      .content{
+        width: 70%;
+        
+        }
+    }
+
+
+    @media screen and (min-width: 992px){
+      
+      #correct{ 
+        width: 60%;
+        height: 40%;
+        margin: 30% 20%;
+      }
+      
+      #correct h1{
+        font-size: 80px;
+        padding-top: 5%;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      #correct{ 
+        width: 60%;
+        height: 40%;
+        margin: 17% 20%;
+      }
+      
+      #correct h1{
+        font-size: 90px;
+        
+        
+
+        }
+    }
+    

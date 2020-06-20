@@ -154,7 +154,7 @@ const products = {
 
 let newId;
 let usedIds = [];
-const numberOfProducts = 2;
+const numberOfProducts = 23;
 function random() {
     newId = Math.floor(Math.random() * numberOfProducts)
     for (let i = 0; i < usedIds.length; i++) {

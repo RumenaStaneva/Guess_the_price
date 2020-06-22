@@ -261,16 +261,26 @@ margin-top: 10%;
       justify-content: center
       }
       
-      #correct{
+      #correct, #wrong, #winning{
+        background-color: ivory;
         width: 80%;
         height: 40%;
         margin: 70% 10%;
-        background-color: ivory;
         opacity: 0.97;
         
       }
+
+      #winning{
+        background-color: rgb(233, 250, 76);
+      }
+
+      #wrong{
+        background-color:  lightcoral;
+      }
       
-      #correct h1{
+      #correct h1,
+      #wrong h1,
+      #winning h1{
         font-size: 70px;
         padding-top: 20%;
         }
@@ -287,9 +297,7 @@ margin-top: 10%;
         width: 80%;
         }
 
-        
-  
-        #correct{
+        #correct, #wrong, #winning{
           width: 80%;
           height: 40%;
           margin: 45% 10%;
@@ -297,7 +305,16 @@ margin-top: 10%;
           opacity: 0.97;
         }
 
-        #correct h1{
+        #wrong{
+          background-color:  lightcoral;
+        }
+
+        #winning{
+          background-color: rgb(233, 250, 76);
+        }
+        #correct h1,
+        #wrong h1,
+        #winning h1{
           font-size: 90px;
           padding-top: 5%;
           }
@@ -309,13 +326,15 @@ margin-top: 10%;
         display: block;
       }
 
-      #correct{ 
+      #correct, #wrong, #winning{ 
         width: 70%;
         height: 40%;
         margin: 35% 15%;
       }
       
-      #correct h1{
+      #correct h1,
+      #wrong h1,
+      #winning h1{
         font-size: 80px;
         padding-top: 10%;
         }
@@ -328,26 +347,30 @@ margin-top: 10%;
 
     @media screen and (min-width: 992px){
       
-      #correct{ 
+      #correct, #wrong, #winning{ 
         width: 60%;
         height: 40%;
         margin: 30% 20%;
       }
       
-      #correct h1{
+      #correct h1, 
+      #wrong h1,
+      #winning h1{
         font-size: 80px;
         padding-top: 5%;
         }
     }
 
     @media only screen and (min-width: 1200px) {
-      #correct{ 
+      #correct, #wrong, #winning{ 
         width: 60%;
         height: 40%;
         margin: 17% 20%;
       }
       
-      #correct h1{
+      #correct h1,
+      #wrong h1,
+      #winning h1{
         font-size: 90px;
         
         

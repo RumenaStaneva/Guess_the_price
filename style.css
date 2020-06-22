@@ -236,6 +236,9 @@
 
 
 @media screen and (max-width: 420px){
+  body{
+    overflow-x: hidden;
+  }
   .image{
     height: 100%;
     width: 100%;

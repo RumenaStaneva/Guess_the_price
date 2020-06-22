@@ -149,7 +149,8 @@ const products = {
 
 
     ],
-    shoes: {}
+    highlighters: [],
+    
 } 
 
 let newId;

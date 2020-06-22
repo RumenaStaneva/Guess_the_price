@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pictures/favcon-icon.png" />
+    
+    <script src="app.js" defer></script>
+    
+    <title>Mascaras</title>
+</head>
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0" id="banner">
+        <p id="title">Mascaras</p>
+    </div>
+
+    <div class="for-flex">
+    <div class="content">
+        <ul id="random-content">
+         
+        </ul>
+    </div>
+    </div>
+    
+    <div id="correct" class="modal"><span class="close">&times;</span>
+        <h1 class="message">Correct!</h1>
+    </div>
+
+    <div id="wrong" class="modal"><span class="close">&times;</span>
+        <h1 class="message">Wrong! <br>Try again!</h1>
+    </div>
+
+    <div id="winning" class="modal"><span class="close">&times;</span>
+      <h1 class="message">You won!</h1>
+      <button id="restart">Restart</button>
+      <a id="retunHome" href="../index.html">Return home</a>
+  </div>
+
+   <header class="main-header">
+    <div>
+      <p id="navig">Choose your category:</p>
+    </div>
+    
+  <nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="palettes.html">Palettes</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="../Highlighter-quiz/index.html">Highliter</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="../Foundation-quiz/index.html">Foundation</a>
+        </li>
+        <li class="main-nav__item">
+            <a href="Lipstick-quiz/index.html">Lipsticks</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="SkinCare-quiz/index.html">Skin care</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="Mascaras-quiz/index.html">Mascaras</a>
+          </li>
+        <li class="main-nav__item--cta">
+          <a href="../index.html">Home Page</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+</body>
+</html>

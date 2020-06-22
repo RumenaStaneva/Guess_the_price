@@ -322,9 +322,7 @@ margin-top: 10%;
   
 
     @media screen and (min-width: 768px){
-      .main-header{
-        display: block;
-      }
+      
 
       #correct, #wrong, #winning{ 
         width: 70%;
@@ -362,6 +360,9 @@ margin-top: 10%;
     }
 
     @media only screen and (min-width: 1200px) {
+      .main-header{
+        display: block;
+      }
       #correct, #wrong, #winning{ 
         width: 60%;
         height: 40%;

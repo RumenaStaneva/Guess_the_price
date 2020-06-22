@@ -23,25 +23,25 @@ const products = {
         {
             name: "Chanel - Le Volume de Chanel Mascara",
             price: 32,
-            image: "pictures/huda.png", 
+            image: "pictures/chanel-le-volume.png", 
             id: 2
         }, 
         {
-            name: "Jeffree Star - Blood Sugar palette",
-            price: 52,
-            image: "pictures/bloodSugar.png", 
+            name: "Lancôme - Hypnose Doll Lashes Mascara",
+            price: 28,
+            image: "pictures/lancome-hypnose.png", 
             id: 3
         },
         {
-            name: "Jeffree Star - Jawbreaker Palette",
-            price: 58,
-            image: "pictures/JawBreaker.png", 
+            name: "Pat McGrath - Labs FetishEyes Mascara",
+            price: 30,
+            image: "pictures/pat-mcgrath.png", 
             id: 4
         }, 
         {
-            name: "Fenty Beauty - Moroccan Spice Eyeshadow Palette",
-            price: 59,
-            image: "pictures/fentyBeauty.png", 
+            name: "Maybelline - Lash Sensational Mascara",
+            price: 10,
+            image: "pictures/maybelline-lash-sensational.png", 
             id: 5
         }, 
         {
@@ -154,7 +154,7 @@ const products = {
 
 let newId;
 let usedIds = [];
-const numberOfProducts = 2;
+const numberOfProducts = 6;
 function random() {
     newId = Math.floor(Math.random() * numberOfProducts)
     for (let i = 0; i < usedIds.length; i++) {

@@ -19,6 +19,7 @@ body{
   #title{
     font-size: 70px;
     color:rgb(32, 29, 30);
+    text-shadow: 2px 2px 5px rgb(51, 50, 50);
     font-family: 'Lobster', cursive;
     opacity: 1;
   }
@@ -233,9 +234,34 @@ margin-top: 10%;
     background-color: rgb(255, 183, 173);
     border: none;
   }
+  form input{
+    background-color: palevioletred;
+    font-size: 30px;
+    border-radius: 10px;
+    height: 50px;
+    width: 60px;
+    font-weight: bold;
+    
+    }
 
+    form input:hover{
+        background-color: papayawhip;
+        
+        }
+
+  form{
+      display: none;
+  }
  
     @media screen and (max-width: 600px){
+      form{
+        display: inline-block;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        
+        
+    }
       .main-header{
         display: none;
       }
@@ -258,7 +284,7 @@ margin-top: 10%;
       .content{
       width: 90%;
       border: 2px solid rgb(255, 161, 148);
-      justify-content: center
+      justify-content: center;
       }
       
       #correct, #wrong, #winning{
@@ -290,6 +316,14 @@ margin-top: 10%;
 
     @media screen and (min-width: 600px){
   
+      form{
+        display: inline-block;
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        
+        
+    }
       .main-header{
         display: none;
       }

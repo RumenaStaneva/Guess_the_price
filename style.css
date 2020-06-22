@@ -33,7 +33,7 @@
 
     .nav-links{
       display: flex;
-      width: 60%;
+      width: 70%;
       justify-content: space-around;
     }
     .nav-links a{
@@ -143,8 +143,11 @@
     
     
     @media screen and (max-width:1296px){
+      body{
+        overflow-x: hidden;
+      }
       .nav-links{
-      width: 70%;
+      width: 80%;
     }
 
     .section{
@@ -174,6 +177,9 @@
       }
     
       @media screen and (max-width:1060px){
+        body{
+          overflow-x: hidden;
+        }
         .nav-links{
         width: 80%;
       }

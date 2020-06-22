@@ -45,107 +45,54 @@ const products = {
             id: 5
         }, 
         {
-            name: "Huda Beauty - Rose Gold Remastered Palette",
-            price: 56,
-            image: "pictures/hudaBeautyRose.png", 
+            name: "L’Oréal - Voluminous Carbon Black Waterproof Mascara",
+            price: 6,
+            image: "pictures/loreal-voluminous.png", 
             id: 6
         },
         {
-            name: "Huda Beauty - Desert Dusk Palette",
-            price: 56,
-            image: "pictures/hudaDesertDusk.png", 
+            name: "MAC - Haute and Naughty Lash Mascara",
+            price: 24,
+            image: "pictures/mac-haute-and-naughty.png", 
             id: 7
         },
         {
-            name: "Morphe X Jaclyn Hill Eyeshadow Palette",
-            price: 16,
-            image: "pictures/morpheXJacklynHillSmall.png", 
+            name: "IT Cosmetics - Tightline 3-in-1 Black Primer-Eyeliner-Mascara",
+            price: 25,
+            image: "pictures/it-cosmetics.png", 
             id: 8
         },
         {
-            name: "Huda Beauty - Mercury Retrograde Palette",
-            price: 58,
-            image: "pictures/hudaMercury.png", 
+            name: "Giorgio Armani - Beauty Eyes to Kill Mascara",
+            price: 25,
+            image: "pictures/georgio-armani.png", 
             id: 9
         },
         {
-            name: "Morphe - The Jaclyn Hill Eyeshadow Palette",
-            price: 39,
-            image: "pictures/jacklinHillMorphe.png", 
+            name: "Benefit - They're Real Mascara",
+            price: 25,
+            image: "pictures/benefit.png", 
             id: 10
         },
         {
-            name: "Anastasia Beverly Hills - Riviera Eye Shadow Palette",
-            price: 46,
-            image: "pictures/ABHRiviera.png", 
+            name: "L'Oréal - Voluminous Lash Paradise Mascara",
+            price: 11,
+            image: "pictures/loreal-paradise.png", 
             id: 11
         },
         {
-            name: "Anastasia Beverly Hills - Soft Glam Eye Shadow Palette",
-            price: 46,
-            image: "pictures/jacklinHillMorphe.png", 
+            name: "Too Faced - Better Than Sex Mascara",
+            price: 23,
+            image: "pictures/better-than-sex.png", 
             id: 12
         },
         {
-            name: "ICONIC London - Loose Pigment Palette",
-            price: 45,
-            image: "pictures/iconicLondon.png", 
+            name: "Kat Von D - Go Big or Go Home Mascara",
+            price: 20,
+            image: "pictures/kat-von-d.png", 
             id: 13
         },
-        {
-            name: "Lime Crime - Venus XL Palette",
-            price: 56,
-            image: "pictures/limeCrime.png", 
-            id: 14
-        },
-        {
-            name: "Urban Decay - Naked Ultra Violet Palette",
-            price: 43,
-            image: "pictures/urbanDecayViolet.png", 
-            id: 15
-        },
-        {
-            name: "Urban Decay - Naked Heat Eyeshadow Palette",
-            price: 43,
-            image: "pictures/urbanDecayHeat.png", 
-            id: 16
-        },
-        {
-            name: "Urban Decay - Born To Run Eyeshadow Palette",
-            price: 43,
-            image: "pictures/urbanDecayBornToHeat.png", 
-            id: 17
-        },
-        {
-            name: "BEAUTY BAY - Bright 42 colour palette",
-            price: 23,
-            image: "pictures/beautyBayPalette.png", 
-            id: 18
-        },
-        {
-            name: "Juvia's Place - Zuzu eyeshadow palette",
-            price: 23,
-            image: "pictures/juviasPlaceZuzu.png", 
-            id: 19
-        },
-        {
-            name: "Anastasia Beverly Hills - Amrezy eyeshadow palette",
-            price: 54,
-            image: "pictures/ABHAmrezy.png", 
-            id: 20
-        },
-        {
-            name: "BPerfect - Stacey Marie Carnival palette",
-            price: 48,
-            image: "pictures/carnival.png", 
-            id: 21
-        },
-        {
-            name: "Jeffree Star - Conspiracy Palette",
-            price: 52,
-            image: "pictures/jsConspiracy.png", 
-            id: 22
-        },
+        
 
 
     ]
@@ -154,7 +101,7 @@ const products = {
 
 let newId;
 let usedIds = [];
-const numberOfProducts = 6;
+const numberOfProducts = 14;
 function random() {
     newId = Math.floor(Math.random() * numberOfProducts)
     for (let i = 0; i < usedIds.length; i++) {

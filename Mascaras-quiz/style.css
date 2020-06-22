@@ -236,8 +236,37 @@ margin-top: 10%;
     border: none;
   }
 
+  form input{
+    background-color: palevioletred;
+    font-size: 30px;
+    border-radius: 10px;
+    height: 50px;
+    width: 60px;
+    font-weight: bold;
+    
+    }
+
+    form input:hover{
+        background-color: papayawhip;
+        
+        }
+
+  form{
+      display: none;
+  }
+
  
     @media screen and (max-width: 600px){
+        form{
+            display: inline-block;
+            margin: 0;
+            position: absolute;
+            left: 0;
+            
+            
+        }
+
+        
       .main-header{
         display: none;
       }
@@ -292,6 +321,15 @@ margin-top: 10%;
 
     @media screen and (min-width: 600px){
   
+      form{
+        display: inline-block;
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        
+        
+    }
+      
       .main-header{
         display: none;
       }
@@ -363,6 +401,11 @@ margin-top: 10%;
     }
 
     @media only screen and (min-width: 1200px) {
+      form{
+        display: none;
+        
+        
+    }
         .main-header{
             display: block;
           }

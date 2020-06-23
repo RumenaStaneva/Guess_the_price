@@ -397,20 +397,18 @@ margin-top: 10%;
             display: block;
           }
       #correct, #wrong, #winning{ 
-        display: inline-block;
         width: 60%;
         height: 40%;
-        margin:0;
+        margin: 17% 20%;
       }
 
-      .message{ 
-        margin:0;
-      }
-      
       #correct h1,
       #wrong h1,
       #winning h1{
         font-size: 90px;
+        padding-top:0;
+        
+
         }
     }
     

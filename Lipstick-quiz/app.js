@@ -9,87 +9,87 @@ let namePalette = '';
 const products = {
     makeup: [
         {
-            name: "Juice Beauty Phyto-Pigments Ultra-Natural Mascara ",
-            price: 24,
-            image:"pictures/juice-beauty.png",
+            name: "L'Oreal Paris - Satin Lipstick || Shade: Charme Dore 116",
+            price: 9,
+            image:"pictures/loreal-satin.png",
             id: 0
         },
         {
-            name: 'Marc Jacobs - Beauty Velvet Noir Mascara',
+            name: 'NARS - Velvet Matte Lip Pencil || Shade: DOLCE VITA Dusty Rose',
             price: 27,
-            image: "pictures/marc-jacobs-velvet-noir.png",
+            image: "pictures/nars-lip-pencil.png",
             id: 1
         },
         {
-            name: "Chanel - Le Volume de Chanel Mascara",
-            price: 32,
-            image: "pictures/chanel-le-volume.png", 
+            name: "Stila - Stay All Day Liquid Lipstick || Shade: Sheer Morello",
+            price: 22,
+            image: "pictures/stila.png", 
             id: 2
         }, 
         {
-            name: "Lancôme - Hypnose Doll Lashes Mascara",
-            price: 28,
-            image: "pictures/lancome-hypnose.png", 
+            name: "NYX - Soft Matte Lip Cream || Shade: Rome",
+            price: 6,
+            image: "pictures/nyx.png", 
             id: 3
         },
         {
-            name: "Pat McGrath - Labs FetishEyes Mascara",
-            price: 30,
-            image: "pictures/pat-mcgrath.png", 
+            name: "Kylie Cosmetics - Lip Kit || Shade: Posie K",
+            price: 27,
+            image: "pictures/kylie.png", 
             id: 4
         }, 
         {
-            name: "Maybelline - Lash Sensational Mascara",
-            price: 10,
-            image: "pictures/maybelline-lash-sensational.png", 
+            name: "Yves Saint Laurent || Shade: 08 Black Red Code - Deep Burgundy",
+            price: 37,
+            image: "pictures/yves-saint.png", 
             id: 5
         }, 
         {
-            name: "L’Oréal - Voluminous Carbon Black Waterproof Mascara",
-            price: 6,
-            image: "pictures/loreal-voluminous.png", 
+            name: "Anastasia Beverly Hills || Shade: American Doll",
+            price: 20,
+            image: "pictures/anastasia.png", 
             id: 6
         },
         {
-            name: "MAC - Haute and Naughty Lash Mascara",
+            name: "Jeffree Star - Velour Liquid Lipstick || Shade: Androgyny",
             price: 24,
-            image: "pictures/mac-haute-and-naughty.png", 
+            image: "pictures/jeffree-star.png", 
             id: 7
         },
         {
-            name: "IT Cosmetics - Tightline 3-in-1 Black Primer-Eyeliner-Mascara",
+            name: "Fenty Beauty - Stunna lip paint || Shade: Uncensored - Perfect universal red",
             price: 25,
-            image: "pictures/it-cosmetics.png", 
+            image: "pictures/fenty-beauty.png", 
             id: 8
         },
         {
-            name: "Giorgio Armani - Beauty Eyes to Kill Mascara",
-            price: 25,
-            image: "pictures/georgio-armani.png", 
+            name: "Fenty Beauty - Gloss Bomb Universal Lip Luminizer || Shade: Diamond Milk",
+            price: 19,
+            image: "pictures/fenty-gloss-bomb.png", 
             id: 9
         },
         {
-            name: "Benefit - They're Real Mascara",
+            name: "MAC - Retro Matte || Shade: 705 Flat Out Fabulous",
             price: 25,
-            image: "pictures/benefit.png", 
+            image: "pictures/mac.png", 
             id: 10
         },
         {
-            name: "L'Oréal - Voluminous Lash Paradise Mascara",
-            price: 11,
-            image: "pictures/loreal-paradise.png", 
+            name: "Too Faced - Melted Matte || Shade: Bend & Snap!",
+            price: 19,
+            image: "pictures/too-faced.png", 
             id: 11
         },
         {
-            name: "Too Faced - Better Than Sex Mascara",
-            price: 23,
-            image: "pictures/better-than-sex.png", 
+            name: "Huda Beauty -Power Bullet Matte Lipstick || Shade: Pool Party",
+            price: 22,
+            image: "pictures/huda-beauty-bullet.png", 
             id: 12
         },
         {
-            name: "Kat Von D - Go Big or Go Home Mascara",
+            name: "Huda Beauty - Demi Matte Cream Lipstick || Shade: Provocateur",
             price: 20,
-            image: "pictures/kat-von-d.png", 
+            image: "pictures/huda-beauty.png", 
             id: 13
         },
         
@@ -167,8 +167,6 @@ function trueOrfalse(){
         document.getElementById('wrong').style.display='block';
         
     }
-    
-    //document.getElementById('input').value = '';
     
 }
 

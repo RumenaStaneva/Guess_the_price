@@ -11,7 +11,7 @@ body{
 
 #banner{
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(173, 198, 255, 0.5)),url(pictures/banner.jpg);
-    background-repeat: repeat-x;
+    background-size: cover;
     height: 300px;
     
   }
@@ -235,36 +235,32 @@ margin-top: 10%;
     border: none;
   }
 
-  form input{
+  form button{
     background-color: #9C89B8;
     font-size: 30px;
     border-radius: 10px;
     height: 50px;
     width: 60px;
     font-weight: bold;
+    padding-left: 0px;
     
     }
+    form{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    }
 
-    form input:hover{
-        background-color: #F0E6EF;
-        
+    form button:hover{
+    background-color: #F0E6EF;
+    color: black;
         }
 
-  form{
-      display: none;
-  }
+  
 
  
     @media screen and (max-width: 600px){
-        form{
-            display: inline-block;
-            margin: 0;
-            position: absolute;
-            left: 0;
-            
-            
-        }
-
         
       .main-header{
         display: none;
@@ -319,16 +315,6 @@ margin-top: 10%;
     }
 
     @media screen and (min-width: 600px){
-  
-      form{
-        display: inline-block;
-        padding: 10px;
-        position: absolute;
-        left: 0;
-        
-        
-    }
-      
       .main-header{
         display: none;
       }
@@ -400,27 +386,31 @@ margin-top: 10%;
     }
 
     @media only screen and (min-width: 1200px) {
-      form{
-        display: none;
+      #banner{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(173, 198, 255, 0.5)),url(pictures/banner.jpg);
+        background-repeat: repeat;
+        height: 300px;
         
-        
-    }
+      }
+      
         .main-header{
             display: block;
           }
       #correct, #wrong, #winning{ 
+        display: inline-block;
         width: 60%;
         height: 40%;
-        margin: 17% 20%;
+        margin:0;
+      }
+
+      .message{ 
+        margin:0;
       }
       
       #correct h1,
       #wrong h1,
       #winning h1{
         font-size: 90px;
-        
-        
-
         }
     }
     

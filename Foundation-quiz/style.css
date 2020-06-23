@@ -3,14 +3,14 @@
   }
 
 body{
-    background-color: #FFFFFF;
+    background-color: #EEE2DF;
     text-align: center;
     font-family: 'Lobster', cursive;
     margin: 0;
   }
 
 #banner{
-    background-image: linear-gradient(rgba(226, 247, 247, 0.4), rgba(241, 248, 248, 0.4)),url(pictures/banner.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(245, 183, 164, 0.5)),url(pictures/banner.jpg);
     background-repeat: repeat-x;
     height: 300px;
     
@@ -18,8 +18,8 @@ body{
 
   #title{
     font-size: 70px;
-    color:#3C6E71;
-    text-shadow: 3px 3px 6px #60abaf;
+    color: #C97C5D;
+    text-shadow: 3px 3px 6px #92726f;
     font-family: 'Lobster', cursive;
     opacity: 1;
   }
@@ -33,9 +33,9 @@ body{
 
 .content{
 margin-top: 40px;
-background-color: #D9D9D9;
+background-color: #EED7C5;
 width: 50%;
-border: 5px solid #353535;
+border: 5px solid #C89F9C;
 }
 
 .content > ul {
@@ -63,13 +63,12 @@ input::-webkit-inner-spin-button {
   margin-top: 16px;
   width: 30%;
   font-size: 20px;
-  background-color: #284B63;
+  background-color: #C89F9C;
   border-radius: 5px;
-  color: #D9D9D9;
 }
 
 #button-submit:hover{
-  color: #FFFFFF;
+  color: #EEE2DF;
 }
 
 #restart{
@@ -150,7 +149,7 @@ margin-top: 10%;
   bottom: 0;
   right: 0;
   width: 100%;
-  background-color: #3C6E71;
+  background-color: #B36A5E;
   padding: 8px 16px;
   vertical-align: middle;
   
@@ -206,7 +205,7 @@ margin-top: 10%;
     display: block;
     width: 0;
     height: 2px;
-    border-bottom: 5px solid #D9D9D9;
+    border-bottom: 5px solid #C89F9C;
   }
 
   .main-nav__item--cta{
@@ -223,20 +222,20 @@ margin-top: 10%;
   }
 
   .main-nav__item--cta a{
-    color: #D9D9D9;
-    background-color: #284B63;
+    color: #EED7C5;
+    background-color: #C89F9C;
     padding: 8px 16px;
     border-radius: 8px;
   }
 
   .main-nav__item--cta a:hover{
-    color: #284B63;
-    background-color: #D9D9D9;
+    color: #C89F9C;
+    background-color: #EED7C5;
     border: none;
   }
 
   form input{
-    background-color: #3C6E71;
+    background-color: #C97C5D;
     font-size: 30px;
     border-radius: 10px;
     height: 50px;
@@ -246,7 +245,7 @@ margin-top: 10%;
     }
 
     form input:hover{
-        background-color: #D9D9D9;
+        background-color: #EEE2DF;
         
         }
 

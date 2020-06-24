@@ -307,8 +307,8 @@ margin-top: 10%;
       #correct h1,
       #wrong h1,
       #winning h1{
-        font-size: 70px;
-        padding-top: 20%;
+        font-size: 50px;
+        
         }
 
       
@@ -350,7 +350,7 @@ margin-top: 10%;
         #wrong h1,
         #winning h1{
           font-size: 90px;
-          padding-top: 5%;
+          
           }
     }
   
@@ -368,7 +368,7 @@ margin-top: 10%;
       #wrong h1,
       #winning h1{
         font-size: 80px;
-        padding-top: 10%;
+        padding-top:0;
         }
       .content{
         width: 70%;
@@ -389,7 +389,7 @@ margin-top: 10%;
       #wrong h1,
       #winning h1{
         font-size: 80px;
-        padding-top: 5%;
+        padding-top:0;
         }
     }
 
@@ -406,7 +406,7 @@ margin-top: 10%;
       #correct h1,
       #wrong h1,
       #winning h1{
-        font-size: 90px;
+        font-size: 60px;
         padding-top:0;
         
 

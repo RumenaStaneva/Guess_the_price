@@ -11,7 +11,7 @@ body{
 
 #banner{
     background-image: linear-gradient(rgba(248, 248, 248, 0.4), rgba(128, 241, 198, 0.4)),url(pictures/banner.jpg);
-    background-repeat: repeat-x;
+    background-size: cover;
     height: 300px;
     
   }

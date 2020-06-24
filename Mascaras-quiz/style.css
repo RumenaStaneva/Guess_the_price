@@ -11,7 +11,7 @@ body{
 
 #banner{
     background-image: linear-gradient(rgba(226, 247, 247, 0.4), rgba(241, 248, 248, 0.4)),url(pictures/banner.jpg);
-    background-repeat: repeat-x;
+    background-size: cover;
     height: 300px;
     
   }
@@ -256,6 +256,7 @@ margin-top: 10%;
 
  
     @media screen and (max-width: 600px){
+      
         form{
             display: inline-block;
             margin: 0;
@@ -320,6 +321,7 @@ margin-top: 10%;
 
     @media screen and (min-width: 600px){
   
+      
       form{
         display: inline-block;
         padding: 10px;

@@ -250,21 +250,23 @@ margin-top: 10%;
         
         }
 
-  form{
-      display: none;
-  }
-
+  
+    form{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 0;
+  
+          }
  
     @media screen and (max-width: 600px){
-      
-        form{
-            display: inline-block;
-            margin: 0;
-            position: absolute;
-            left: 0;
-            
-            
-        }
+      .close {
+        padding-left: 0;
+        margin-left: 35% ;
+        font-size: 40px;
+        
+      }
+       
 
         
       .main-header{
@@ -313,7 +315,7 @@ margin-top: 10%;
       #wrong h1,
       #winning h1{
         font-size: 70px;
-        padding-top: 20%;
+        padding-right: 0;
         }
 
       
@@ -321,15 +323,12 @@ margin-top: 10%;
 
     @media screen and (min-width: 600px){
   
-      
-      form{
-        display: inline-block;
-        padding: 10px;
-        position: absolute;
-        left: 0;
+      .close {
+        padding-left: 0;
+        margin-left: 35% ;
+        font-size: 40px;
         
-        
-    }
+      }
       
       .main-header{
         display: none;
@@ -356,8 +355,8 @@ margin-top: 10%;
         #correct h1,
         #wrong h1,
         #winning h1{
-          font-size: 90px;
-          padding-top: 5%;
+          font-size: 40px;
+          
           }
     }
   
@@ -375,7 +374,7 @@ margin-top: 10%;
       #wrong h1,
       #winning h1{
         font-size: 80px;
-        padding-top: 10%;
+        padding-top:0;
         }
       .content{
         width: 70%;
@@ -397,17 +396,12 @@ margin-top: 10%;
       #wrong h1,
       #winning h1{
         font-size: 80px;
-        padding-top: 5%;
+        
         }
     }
 
     @media only screen and (min-width: 1200px) {
-      form{
-        display: none;
-        
-        
-    }
-        .main-header{
+      .main-header{
             display: block;
           }
       #correct, #wrong, #winning{ 

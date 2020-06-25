@@ -257,10 +257,22 @@ margin-top: 10%;
     color: black;
         }
 
-  
+    form{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 0;
+      }
 
  
     @media screen and (max-width: 600px){
+
+      .close {
+        padding-left: 0;
+        margin-left: 35% ;
+        font-size: 40px;
+        
+      }
       #banner{
         background-size: cover;
       }
@@ -310,14 +322,20 @@ margin-top: 10%;
       #correct h1,
       #wrong h1,
       #winning h1{
-        font-size: 70px;
-        padding-top: 20%;
+        font-size: 60px;
+        padding-top: 0;
         }
 
       
     }
 
     @media screen and (min-width: 600px){
+      .close {
+        padding-left: 0;
+        margin-left: 35% ;
+        font-size: 40px;
+        
+      }
       .main-header{
         display: none;
       }
@@ -343,8 +361,7 @@ margin-top: 10%;
         #correct h1,
         #wrong h1,
         #winning h1{
-          font-size: 90px;
-          padding-top: 5%;
+          font-size: 60px;
           }
     }
   
@@ -384,7 +401,7 @@ margin-top: 10%;
       #wrong h1,
       #winning h1{
         font-size: 80px;
-        padding-top: 5%;
+     
         }
     }
 
@@ -408,7 +425,7 @@ margin-top: 10%;
       #correct h1,
       #wrong h1,
       #winning h1{
-        font-size: 90px;
+        font-size: 60px;
         padding-top:0;
         
 

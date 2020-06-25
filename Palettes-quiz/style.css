@@ -249,19 +249,22 @@ margin-top: 10%;
         
         }
 
-  form{
-      display: none;
-  }
+    form{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 0;
+      }
  
     @media screen and (max-width: 600px){
-      form{
-        display: inline-block;
-        margin: 0;
-        position: absolute;
-        left: 0;
+
+      .close {
+        padding-left: 0;
+        margin-left: 35% ;
+        font-size: 40px;
         
-        
-    }
+      }
+      
       .main-header{
         display: none;
       }
@@ -290,7 +293,7 @@ margin-top: 10%;
       #correct, #wrong, #winning{
         background-color: ivory;
         width: 80%;
-        height: 40%;
+        height: 30%;
         margin: 70% 10%;
         opacity: 0.97;
         
@@ -307,8 +310,9 @@ margin-top: 10%;
       #correct h1,
       #wrong h1,
       #winning h1{
-        font-size: 50px;
-        
+        font-size: 60px;
+        padding-right: 0;
+       
         }
 
       
@@ -316,14 +320,12 @@ margin-top: 10%;
 
     @media screen and (min-width: 600px){
   
-      form{
-        display: inline-block;
-        padding: 10px;
-        position: absolute;
-        left: 0;
+      .close {
+        padding-left: 0;
+        margin-left: 35% ;
+        font-size: 40px;
         
-        
-    }
+      }
       .main-header{
         display: none;
       }
@@ -333,7 +335,7 @@ margin-top: 10%;
 
         #correct, #wrong, #winning{
           width: 80%;
-          height: 40%;
+          height: 30%;
           margin: 45% 10%;
           background-color: ivory;
           opacity: 0.97;
@@ -349,7 +351,7 @@ margin-top: 10%;
         #correct h1,
         #wrong h1,
         #winning h1{
-          font-size: 40px;
+          font-size: 60px;
           
           }
     }
@@ -389,7 +391,7 @@ margin-top: 10%;
       #wrong h1,
       #winning h1{
         font-size: 80px;
-        padding-top:0;
+        
         }
     }
 

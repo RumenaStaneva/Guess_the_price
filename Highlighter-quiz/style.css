@@ -250,22 +250,20 @@ form input{
       
       }
 
-form{
-    display: none;
-}
-
-
-  @media screen and (max-width: 600px){
-      form{
-          display: inline-block;
-          margin: 0;
-          position: absolute;
-          left: 0;
-          
-          
+  form{
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  left: 0;  
       }
 
+  @media screen and (max-width: 600px){
+    .close {
+      padding-left: 0;
+      margin-left: 35% ;
+      font-size: 40px;
       
+    }
     .main-header{
       display: none;
     }
@@ -311,8 +309,8 @@ form{
     #correct h1,
     #wrong h1,
     #winning h1{
-      font-size: 70px;
-      padding-top: 20%;
+      font-size: 60px;
+      padding-right: 0;
       }
 
     
@@ -320,15 +318,12 @@ form{
 
   @media screen and (min-width: 600px){
 
-    form{
-      display: inline-block;
-      padding: 10px;
-      position: absolute;
-      left: 0;
+    .close {
+      padding-left: 0;
+      margin-left: 35% ;
+      font-size: 40px;
       
-      
-  }
-    
+    }
     .main-header{
       display: none;
     }
@@ -354,8 +349,8 @@ form{
       #correct h1,
       #wrong h1,
       #winning h1{
-        font-size: 90px;
-        padding-top: 5%;
+        font-size: 60px;
+       
         }
   }
 
@@ -373,7 +368,7 @@ form{
     #wrong h1,
     #winning h1{
       font-size: 80px;
-      padding-top: 10%;
+      padding-top: 0;
       }
     .content{
       width: 70%;
@@ -395,16 +390,11 @@ form{
     #wrong h1,
     #winning h1{
       font-size: 80px;
-      padding-top: 5%;
+      
       }
   }
 
   @media only screen and (min-width: 1200px) {
-    form{
-      display: none;
-      
-      
-  }
       .main-header{
           display: block;
         }
@@ -417,7 +407,7 @@ form{
     #correct h1,
     #wrong h1,
     #winning h1{
-      font-size: 90px;
+      font-size: 60px;
       padding-top:0;
       
 

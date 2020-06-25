@@ -9,87 +9,87 @@ let namePalette = '';
 const products = {
     makeup: [
         {
-            name: "Juice Beauty Phyto-Pigments Ultra-Natural Mascara ",
-            price: 24,
-            image:"pictures/juice-beauty.png",
+            name: "Ofra X X Nikkie Tutorials Glazed Donut Highlighter",
+            price: 35,
+            image:"pictures/ofra.png",
             id: 0
         },
         {
-            name: 'Marc Jacobs - Beauty Velvet Noir Mascara',
-            price: 27,
-            image: "pictures/marc-jacobs-velvet-noir.png",
+            name: 'Jeffree Star - Skin Frost || Shade: Sarcophagus',
+            price: 29,
+            image: "pictures/jeffree-star-skin-frost.png",
             id: 1
         },
         {
-            name: "Chanel - Le Volume de Chanel Mascara",
-            price: 32,
-            image: "pictures/chanel-le-volume.png", 
+            name: "Jeffree Star - Liquid Frost || Shade: Canary Bling",
+            price: 25,
+            image: "pictures/jeffree-star-liquid.png", 
             id: 2
         }, 
         {
-            name: "Lancôme - Hypnose Doll Lashes Mascara",
-            price: 28,
-            image: "pictures/lancome-hypnose.png", 
+            name: "Anastasia Beverly Hills - Sugar Glow Kit",
+            price: 53,
+            image: "pictures/ABH-sugar-glow.png", 
             id: 3
         },
         {
-            name: "Pat McGrath - Labs FetishEyes Mascara",
-            price: 30,
-            image: "pictures/pat-mcgrath.png", 
+            name: "Fenty Beauty - Killawatt Foil Freestyle Highlighter || Shade: Mimosa sunrise/Sangria sunset",
+            price: 36,
+            image: "pictures/fenty-beuty.png", 
             id: 4
         }, 
         {
-            name: "Maybelline - Lash Sensational Mascara",
-            price: 10,
-            image: "pictures/maybelline-lash-sensational.png", 
+            name: "Fenty Beauty - Diamond Bomb All-Over Diamond Veil || Shade: Pure platinum sparkle",
+            price: 39,
+            image: "pictures/fenty-bomb.png", 
             id: 5
         }, 
         {
-            name: "L’Oréal - Voluminous Carbon Black Waterproof Mascara",
-            price: 6,
-            image: "pictures/loreal-voluminous.png", 
+            name: "Huda Beauty - 3D Highlighter Palette || Shade: Pink Sands",
+            price: 45,
+            image: "pictures/huda-beauty.png", 
             id: 6
         },
         {
-            name: "MAC - Haute and Naughty Lash Mascara",
-            price: 24,
-            image: "pictures/mac-haute-and-naughty.png", 
+            name: "Glossier - Haloscope || Shade: Moonstone",
+            price: 22,
+            image: "pictures/glossier.png", 
             id: 7
         },
         {
-            name: "IT Cosmetics - Tightline 3-in-1 Black Primer-Eyeliner-Mascara",
-            price: 25,
-            image: "pictures/it-cosmetics.png", 
+            name: "Juvia's Place - Heroine Glow II",
+            price: 16,
+            image: "pictures/juvias-place.png", 
             id: 8
         },
         {
-            name: "Giorgio Armani - Beauty Eyes to Kill Mascara",
-            price: 25,
-            image: "pictures/georgio-armani.png", 
+            name: "Ofra - Glow Up Highlighter Palette",
+            price: 49,
+            image: "pictures/ofra-palette.png", 
             id: 9
         },
         {
-            name: "Benefit - They're Real Mascara",
+            name: "Cover | Fix - Custom Enhancer Drops || Shade: Rose Gold",
             price: 25,
-            image: "pictures/benefit.png", 
+            image: "pictures/cover-fix.png", 
             id: 10
         },
         {
-            name: "L'Oréal - Voluminous Lash Paradise Mascara",
-            price: 11,
-            image: "pictures/loreal-paradise.png", 
+            name: "Kat Von D - Alchemist Holographic Palette",
+            price: 32,
+            image: "pictures/KVD.png", 
             id: 11
         },
         {
-            name: "Too Faced - Better Than Sex Mascara",
+            name: "Too Faced - Diamond Highlighter || Shade: Diamond Fire",
             price: 23,
-            image: "pictures/better-than-sex.png", 
+            image: "pictures/too-faced.png", 
             id: 12
         },
         {
-            name: "Kat Von D - Go Big or Go Home Mascara",
-            price: 20,
-            image: "pictures/kat-von-d.png", 
+            name: "ICONIC London - Illuminator || Shade: Blush",
+            price: 41,
+            image: "pictures/iconic.png", 
             id: 13
         },
         
@@ -101,7 +101,7 @@ const products = {
 
 let newId;
 let usedIds = [];
-const numberOfProducts = 14;
+const numberOfProducts = 2;
 function random() {
     newId = Math.floor(Math.random() * numberOfProducts)
     for (let i = 0; i < usedIds.length; i++) {

@@ -11,22 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="pictures/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style-content.css">
     <link rel="stylesheet" href="style.css">
     
     <script src="app.js" defer></script>
     
-    <title>Foundations</title>
+    <title>Foundation</title>
 </head>
 <body>
     <form>
         <input type="button" value="←" onclick="history.back()">
     </form>
     <div class="jumbotron text-center" style="margin-bottom:0" id="banner">
-        <p id="title">Foundations</p>
+        <p id="title">Foundation</p>
     </div>
 
     
-    <div class="for-flex">
+    <div class="main-content">
     <div class="content">
         <ul id="random-content">
          
@@ -48,22 +49,23 @@
       <a id="retunHome" href="../index.html">Return home</a>
   </div>
 
-  <div class="main-header">
-    <p id="navig">Choose your category:</p>
-  
-  
-    <nav class="main-nav">
-        <ul class="main-nav__items">
-          <li class="main-nav__item">
-            <a href="../Palettes-quiz/index.html">Palettes</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="../Highlighter-quiz/index.html">Highliter</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="index.html">Foundation</a>
-          </li>
-          <li class="main-nav__item">
+   <header class="main-header">
+    <div>
+      <p id="navig">Choose your category:</p>
+    </div>
+    
+  <nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="../Palettes-quiz/index.html">Palettes</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="../Highlighter-quiz/index.html">Highliters</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="index.html">Foundations</a>
+        </li>
+        <li class="main-nav__item">
             <a href="../Lipstick-quiz/index.html">Lipsticks</a>
           </li>
           <li class="main-nav__item">
@@ -72,11 +74,11 @@
           <li class="main-nav__item">
             <a href="../Mascaras-quiz/index.html">Mascaras</a>
           </li>
-          <li class="main-nav__item--cta">
-            <a href="../index.html">Home Page</a>
-          </li>
-        </ul>
-      </nav>
-</div>
+        <li class="main-nav__item--cta">
+          <a href="../index.html">Home Page</a>
+        </li>
+      </ul>
+    </nav>
+</header>
 </body>
 </html>

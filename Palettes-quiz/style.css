@@ -1,12 +1,15 @@
 *{
     box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
   }
 
 body{
     background-color: #FFE5D9;
     text-align: center;
+    position: relative;
     font-family: 'Lobster', cursive;
-    margin: 0;
   }
 
 #banner{
@@ -20,19 +23,20 @@ body{
     font-size: 70px;
     color:rgb(32, 29, 30);
     text-shadow: 2px 2px 5px rgb(51, 50, 50);
-    font-family: 'Lobster', cursive;
     opacity: 1;
   }
 
-  .for-flex{
+  .main-content {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 64px 0;
   
   }
 
 .content{
-margin-top: 40px;
+margin: 40px 40px 20px 76px;
+padding: 20px;
 background-color: #FFCAD4;
 width: 50%;
 border: 5px solid rgb(255, 161, 148);
@@ -145,17 +149,18 @@ margin-top: 10%;
 }
 
 .main-header{
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  display: flex;
   width: 100%;
   background-color: #9D8189;
   padding: 8px 16px;
-  vertical-align: middle;
-  
-  }
-  .main-header > div{
-    display: inline-block;
+  vertical-align: middle;  
+}
+
+#navig {
+  font-size: 20px;
+}
+
+.main-header > div{
     vertical-align: middle;
     font-size: 22px;
     color: rgb(32, 29, 30);
@@ -163,8 +168,6 @@ margin-top: 10%;
 
   
   .main-nav{
-    display: inline-block;
-  
     font-size: 20px;
     text-align: right;
     width: calc(100% - 200px);
@@ -179,11 +182,9 @@ margin-top: 10%;
   
 }
 
-  .main-nav__item{
-    display: inline-block;
+  .main-nav__item {
+    display: inline-block; 
     margin: 0 16px;
-   
-    
   }
 
   .main-nav__item > a{
@@ -191,7 +192,6 @@ margin-top: 10%;
     text-decoration: none;
     font-weight: bold;
     padding: 3px 0;
-    display: inline-block;
   }
 
   .main-nav__item a:hover::after{
@@ -397,7 +397,7 @@ margin-top: 10%;
 
     @media only screen and (min-width: 1200px) {
       .main-header{
-        display: block;
+        display: flex;
       }
       #correct, #wrong, #winning{ 
         width: 60%;

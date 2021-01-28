@@ -9,87 +9,87 @@ let namePalette = '';
 const products = {
     makeup: [
         {
-            name: "Juice Beauty Phyto-Pigments Ultra-Natural Mascara ",
-            price: 24,
-            image:"pictures/juice-beauty.png",
+            name: "CLINIQUE - Dramatically Different Moisturizing Lotion+a ",
+            price: 30,
+            image:"pictures/clinique-dramatically-different-moisturizing-lotion.png",
             id: 0
         },
         {
-            name: 'Marc Jacobs - Beauty Velvet Noir Mascara',
-            price: 27,
-            image: "pictures/marc-jacobs-velvet-noir.png",
+            name: 'LANCÔME - Absolue Revitalizing Anti-Aging Eye Cream',
+            price: 128,
+            image: "pictures/lancome-absolue-revitalizing-anti-aging-eye-cream.png",
             id: 1
         },
         {
-            name: "Chanel - Le Volume de Chanel Mascara",
-            price: 32,
-            image: "pictures/chanel-le-volume.png", 
+            name: "Laura Mercier - Nourishing Rose Oil For Face & Body",
+            price: 65,
+            image: "pictures/laura-mercier-nourishing-rose-oil-for-face-body.png", 
             id: 2
         }, 
         {
-            name: "Lancôme - Hypnose Doll Lashes Mascara",
-            price: 28,
-            image: "pictures/lancome-hypnose.png", 
+            name: "CLINIQUE - Clarifying Lotion 2",
+            price: 18,
+            image: "pictures/clinique-clarifying-lotion-2.png", 
             id: 3
         },
         {
-            name: "Pat McGrath - Labs FetishEyes Mascara",
-            price: 30,
-            image: "pictures/pat-mcgrath.png", 
+            name: "OLEHENRIKSEN - Banana Bright Eye Crème",
+            price: 39,
+            image: "pictures/OLEHENRIKSEN-Banana-Bright-Eye-Crème.png", 
             id: 4
         }, 
         {
-            name: "Maybelline - Lash Sensational Mascara",
-            price: 10,
-            image: "pictures/maybelline-lash-sensational.png", 
+            name: "Mario Badescu - Facial Spray with Aloe, Cucumber and Green Tea",
+            price: 7,
+            image: "pictures/mario-badescu-facial-spray-with-aloe-vera.png", 
             id: 5
         }, 
         {
-            name: "L’Oréal - Voluminous Carbon Black Waterproof Mascara",
-            price: 6,
-            image: "pictures/loreal-voluminous.png", 
+            name: "The Ordinary - Supersize Hyaluronic Acid 2% + B5 - 60ml",
+            price: 16,
+            image: "pictures/the-ordinary-supersize-hyaloronic-acid.png", 
             id: 6
         },
         {
-            name: "MAC - Haute and Naughty Lash Mascara",
-            price: 24,
-            image: "pictures/mac-haute-and-naughty.png", 
+            name: "Pixi - Clarity Concentrate 30ml",
+            price: 26,
+            image: "pictures/pixi-clarity-concentrate.png", 
             id: 7
         },
         {
-            name: "IT Cosmetics - Tightline 3-in-1 Black Primer-Eyeliner-Mascara",
-            price: 25,
-            image: "pictures/it-cosmetics.png", 
+            name: "Origins - Anti-Aging Power Serum",
+            price: 80,
+            image: "pictures/origins-anti-aging-power-serum.png", 
             id: 8
         },
         {
-            name: "Giorgio Armani - Beauty Eyes to Kill Mascara",
-            price: 25,
-            image: "pictures/georgio-armani.png", 
+            name: "Embryolisse Laboratories - Lait-Creme Concentre( 30ml )",
+            price: 13,
+            image: "pictures/embryolisse-lait-creme-concentre.png", 
             id: 9
         },
         {
-            name: "Benefit - They're Real Mascara",
-            price: 25,
-            image: "pictures/benefit.png", 
+            name: "Anastasia - Hydrating Oil",
+            price: 49,
+            image: "pictures/anastasia-oil.png", 
             id: 10
         },
         {
-            name: "L'Oréal - Voluminous Lash Paradise Mascara",
-            price: 11,
-            image: "pictures/loreal-paradise.png", 
+            name: "Revolution - Skincare Blemish and Pore Refining Serum - 10% Niacinamide + 1% Zinc 30ml",
+            price: 7,
+            image: "pictures/revolution.png", 
             id: 11
         },
         {
-            name: "Too Faced - Better Than Sex Mascara",
-            price: 23,
-            image: "pictures/better-than-sex.png", 
+            name: "Farsali - Unicorn Essence",
+            price: 54,
+            image: "pictures/UnicornEssence30ml_main_1024x1024.png", 
             id: 12
         },
         {
-            name: "Kat Von D - Go Big or Go Home Mascara",
-            price: 20,
-            image: "pictures/kat-von-d.png", 
+            name: "NUXE - Huile Prodigieuse( 50ml )",
+            price: 19,
+            image: "pictures/nuxe.png", 
             id: 13
         },
         

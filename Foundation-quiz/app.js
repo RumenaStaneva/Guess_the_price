@@ -9,9 +9,9 @@ let namePalette = '';
 const products = {
     makeup: [
         {
-            name: "Juice Beauty Phyto-Pigments Ultra-Natural Mascara ",
-            price: 24,
-            image:"pictures/juice-beauty.png",
+            name: "CLINIQUE - Dramatically Different Moisturizing Lotion+a ",
+            price: 30,
+            image:"pictures/.png",
             id: 0
         },
         {
